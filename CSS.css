@@ -1,0 +1,112 @@
+            body {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-image: url(https://www.chromethemer.com/download/hd-wallpapers/barbie-3840x2160.jpg); 
+                background-size: cover; 
+                background-attachment: fixed; 
+                background-position: center; 
+                background-repeat: no-repeat; 
+                margin: 0;
+                padding: 20px;
+            }
+    
+            header {
+                background-color: #c53587;
+                color: white;
+                padding: 20px;
+                text-align: center; 
+                border-radius: 8px;
+            }
+    
+            h1, h2 {
+                color: #ffffff;
+            }
+    
+            p {
+                color: #efe6e6;
+                line-height: 1.6;
+            }
+    
+            section, aside {
+                background-color: rgb(255, 255, 255);
+                padding: 15px;
+                margin: 20px 0;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+    
+            ul {
+                padding-left: 25px;
+            }
+    
+            ul li {
+                margin-bottom: 8px;
+            }
+    
+            a {
+                color: rgb(79, 79, 79);
+                text-decoration: none;
+            }
+    
+            a:hover {
+                text-decoration: underline;
+            }
+    
+            img {
+                display: block;
+                max-width: 300px;
+                margin: 20px auto;
+                border-radius: 8px;
+            }
+    
+            iframe {
+                display: block;
+                margin: 20px auto;
+                border: 4px solid white;
+                border-radius: 8px;
+            }
+    
+            footer {
+                text-align: center;
+                background-color: rgb(223, 82, 202);
+                padding: 15px;
+                margin-top: 30px;
+                border-radius: 10px;
+                font-size: 14px;
+            }
+    
+            footer a {
+                color: rgb(222, 93, 186);
+                text-decoration: none;
+            }
+    
+            article {
+                background-color: rgb(237, 121, 185);
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 30px;
+                box-shadow: 0 2px 5px rgba(234, 86, 168, 0.1);
+            }
+    
+            .peliculas-favoritas {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+            
+            .comida-favoritos{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                box-shadow: 0 2px 5px rgba(215, 23, 151, 0.1);
+                background-color: #c31477 (237, 121, 185);
+
+            }
+    
+            .karmaland{
+                display: block;
+                max-width: 400px;
+                margin: 20px auto;
+                border-radius: 8px;
+            }
+    

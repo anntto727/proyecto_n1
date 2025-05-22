@@ -24,21 +24,25 @@ h1, h2 {
     color: #000000;
 }
 
-li {
-    color: #ffffff;
-}
-
 p {
     color: #efe6e6;
     line-height: 1.6;
 }
 
-section, aside {
-    background-color: rgb(255, 255, 255);
-    padding: 15px;
+.caja {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section, aside, article {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 ul {
@@ -47,6 +51,7 @@ ul {
 
 ul li {
     margin-bottom: 8px;
+    color: #000000;
 }
 
 a {
@@ -86,37 +91,43 @@ footer a {
     text-decoration: none;
 }
 
-article {
-    background-color: rgb(237, 121, 185);
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: 0 2px 5px rgba(234, 86, 168, 0.1);
-}
-
 .peliculas-favoritas {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    justify-content: center;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-    .comida-favoritos {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        box-shadow: 0 2px 5px rgba(215, 23, 151, 0.1);
-        background-color: rgb(170, 19, 102);
-    }
-    
-    .comida-favoritos img {
-        width: 200px;
-        height: 200px;
-        border-radius: 8px;
-        object-fit: cover;
-    }
+.peliculas-favoritas img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
 
-.karmaland{
+.comida-favoritos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.comida-favoritos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.karmaland {
     display: block;
     max-width: 400px;
     margin: 20px auto;

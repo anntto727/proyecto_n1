@@ -24,6 +24,10 @@ h1, h2 {
     color: #000000;
 }
 
+li {
+    color: #ffffff;
+}
+
 p {
     color: #efe6e6;
     line-height: 1.6;
@@ -102,7 +106,7 @@ article {
         flex-wrap: wrap;
         gap: 10px;
         box-shadow: 0 2px 5px rgba(215, 23, 151, 0.1);
-        background-color: rgb(237, 121, 185);
+        background-color: rgb(170, 19, 102);
     }
     
     .comida-favoritos img {
